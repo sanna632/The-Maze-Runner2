@@ -1,0 +1,79 @@
+header{
+    background-color: rgb(29, 61, 29);/*цвет фона*/
+    height: 300px;/*высота фона*/
+    color: rgb(255, 255, 255);  /*цвет текста*/
+    font-size: 20px; /*размер текста*/
+    background-image: url(https://www.soyuz.ru/public/uploads/files/2/7634485/2024050412440993274a48f1.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+h1{
+    text-align: left;
+    font-size:40px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   h2{
+    text-align: left;
+    font-size: 30px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   main{
+    background-color: rgb(65, 124, 65); /*цвет фона*/
+    height: 500px;/*высота*/
+    color: rgb(2, 20, 1); /*цвет текста*/
+    font-size: 30px;/*размер текста*/
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px 5px;
+   }
+  .left{
+    background-color: rgb(18, 75, 13);
+    background-image: url(https://wallpaper.forfun.com/fetch/57/57960751863331f1dd51331476a3cbb3.jpeg);
+    float: left;
+    width: 50%;/*фон*/
+    height: 100%;
+
+  }
+    footer{
+  background-color: rgb(1, 46, 1);
+  height: 100%;/*цвет фона*/
+  color: rgb(255, 255, 255);/*цвет текста*/
+    font-size: 30px;/*размер текста*/
+    display: flex;
+}
+.container{
+    background-image: url(https://u.kanobu.ru/editor/images/59/c9c79449-ef0c-47a1-8f53-f4a3876bf7e6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+     background-position:right;
+   }
+.f_left{
+  width:20%;
+    float:left;
+    text-align: center;
+    padding: 20px;
+}
+.f_left img{
+  padding-top: 20px;
+}
+.f_right{
+    width: 60%;
+    float: right;
+}
+
+.f_right img{
+  width: 100px;
+   padding-left: 20px;
+}
+
+.f_right  ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
